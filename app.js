@@ -13,7 +13,7 @@ const express = require('express');
  app.use(cors());
  app.use(morgan('dev'))
  app.use(express.json());
-
+console.log("hello")
  
  
  mongoose.connect('mongodb+srv://shrinidhijakati5:SH4F3z2RECznZRt1@cluster0.g2dna0o.mongodb.net/?retryWrites=true&w=majority')
